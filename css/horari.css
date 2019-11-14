@@ -1,0 +1,36 @@
+table, td{
+    border:1px solid ;
+    border-collapse: collapse;
+}
+.hora{
+    background-color: gray;
+}
+.esp{
+    background-color: greenyellow;
+}
+.tut{
+    background-color: khaki;
+}
+.bar{
+    background-color: lightcoral;
+}
+.mon{
+    background-color: lightpink;
+}
+.car{
+    background-color: lightseagreen;
+}
+.pul{
+    background-color: mediumslateblue;
+}
+.fie{
+    background-color: navajowhite;;
+}
+.link{
+    color: black;
+}
+.pat{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
