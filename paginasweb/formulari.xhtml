@@ -8,15 +8,16 @@
         <title>Títol de la pestanya</title>
         <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <link rel="stylesheet" type="text/css" href="css/formulari.css"/>
+        <link rel="stylesheet" type="text/css" href="../css/formulari.css"/>
     </head>
+    <h1>Curriculum</h1>
     <body>
-        <h1>Curriculum</h1>
+      
        
        <form action="form.html" method="get" enctype="multipart/form-data">
         <fieldset class="nom">
 
-        <legend>Información Basica</legend>
+        <legend >Información Basica</legend>
            <h4>Nombre</h4>
            <input type="text" id="id_text" name="n_text" value="tu nombre" placeholder="Input text" />
         <h4>Altura en centimetros</h4>
@@ -29,11 +30,11 @@
 
        </fieldset>
     
-       <fieldset class="nac">
+       <fieldset class="nac taronja">
            <legend>Nacionalidad</legend>
-           <input type="radio" id="id_radio1" name="n_radio" value="e" />Española
-                <input type="radio" id="id_radio2" name="n_radio" value="c"/>Comunitario
-                <input type="radio" id="id_radio3" name="n_radio" value="n"/>No comunitario
+           <input type="radio" id="id_radio1" name="n_radio" value="e"  />Española
+                <input type="radio" id="id_radio2" name="n_radio" value="c"  />Comunitario
+                <input type="radio" id="id_radio3" name="n_radio" value="n" />No comunitario
        </fieldset>
        <fieldset class="est">   
                                 <legend>Estudios</legend>
@@ -47,12 +48,12 @@
                 </select>
 
        </fieldset>
-<fieldset class="idi">
+<fieldset class="idi red">
                         <legend>Idiomes</legend>
                         <input type="checkbox" id="id_checkbox1" name="n_checkbox[]" value="a" />Catalán
-                        <input type="checkbox" id="id_checkbox2" name="n_checkbox[]" value="c"/>Castellano
-                        <input type="checkbox" id="id_checkbox3" name="n_checkbox[]" value="g"/>Ingles
-                        <input type="checkbox" id="id_checkbox4" name="n_checkbox[]" value="t"/>Chino
+                        <input type="checkbox" id="id_checkbox2" name="n_checkbox[]" value="c" />Castellano
+                        <input type="checkbox" id="id_checkbox3" name="n_checkbox[]" value="g"  />Ingles
+                        <input type="checkbox" id="id_checkbox4" name="n_checkbox[]" value="t"  />Chino
 </fieldset>
 <fieldset class="env">
         <input type="submit" id="id_submit" name="n_submit" value="Enviar"/>  
