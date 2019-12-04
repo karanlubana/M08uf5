@@ -1,0 +1,98 @@
+div{
+    border: 1px solid black;
+    width: 600px;
+    height: 620px;
+  
+}
+
+
+.cuadro1{
+    float:left;
+    width: 73%;
+    height: 16%;
+    background-color: red;
+
+}
+.cuadro2{
+    float: right;
+    width: 25%;
+    height: 16%;
+    background-color: yellow;
+}
+.cuadro3{
+    float: left;
+    width: 36%;
+    height: 33%;
+    margin-top: 7px;
+    margin-right: 5px;
+    background-color: black;
+}
+.cuadro4{
+    float: left;
+    width: 36%;
+    height: 33%;
+    margin-top: 7px;
+    background-color: yellow;
+}
+.cuadro5{
+    float: right;
+    width: 25%;
+    height: 16%;
+    margin-top:7px;
+    background-color:  red;
+    
+}
+.cuadro6{
+    float: right;
+    width: 25%;
+    height: 16%;
+    margin-top:7px;
+    background-color:  yellow;
+}
+
+.cuadro7{
+    float:left;
+    width: 73%;
+    height: 16%;
+    margin-top: 7px;
+    background-color:  red;
+    
+}
+.cuadro8{
+    float: right;
+    width: 25%;
+    height: 33%;
+    margin-top:7px;
+    background-color: black;
+}
+.cuadro9{
+    float:left;
+    width: 73%;
+    height: 16%;
+    margin-top: 7px;
+    background-color:  red;
+}
+.cuadro10{
+    float: left;
+    width: 36%;
+    height: 13%;
+    margin-right: 5px;
+    margin-top: 7px;
+    background-color:  red;
+}
+.cuadro11{
+    float: left;
+    width: 36%;
+    height: 13%;
+    margin-top: 7px;
+    background-color:  yellow;
+}
+.cuadro12{
+    float: right;
+    width: 25%;
+    height: 13%;
+    margin-top: 7px;
+    background-color:  red;
+    
+    
+}
