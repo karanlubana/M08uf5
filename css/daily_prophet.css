@@ -1,0 +1,53 @@
+#DailyProphet {
+	width:830px;
+	position:relative;
+	background-color: lightgoldenrodyellow;
+	margin: 0px auto;
+}
+
+#sirius{
+	float:left;
+	margin-left:20px;
+}
+
+#izquierda{
+	float:left;
+	width:170px;
+	margin-left:20px;
+}
+
+#central{
+	float:left;
+}
+
+
+#derecha{
+	float:right;
+	width:170px;
+	margin-left:8px;
+}
+	
+#giff{
+	width:441px;
+	height:400px;
+}
+
+main{
+	overflow:hidden;
+	border: black 3px solid;
+}
+
+#abajo{
+	margin-left:20px;
+	margin-right:40px;
+}
+
+hr{ 
+	border: 2px solid black;
+	margin-right:40px;
+}
+
+footer{
+	clear:both;
+	border-top: 3px solid black
+}
