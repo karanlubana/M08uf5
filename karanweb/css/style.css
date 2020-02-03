@@ -1,0 +1,158 @@
+body {
+    font-family: roboto;
+
+}
+.logo {
+    width: 7%;
+    min-width: 100px;
+    padding: 3px;
+}
+
+.nav-link {
+    color: midnightblue;
+}
+
+.carousel-caption {
+    padding: 20px;
+    position: absolute;
+    text-align: left;
+    left: 0px;
+}
+
+.float-top-left {
+    position: absolute;
+    /* transform: translate(5%, -10%) */
+    top: -2%;
+    left: 3%;
+}
+
+.float-bottom-right {
+    position: absolute;
+    bottom: -2%;
+    right: 3%;
+}
+
+.XRelative {
+    position: relative;
+}
+
+.list-item-header {
+    position: relative;
+    display: block;
+    padding: .75rem 1.25rem;
+    margin-bottom:  1px;
+    background-color: #fff;
+    border-bottom: 1px solid rgba(0, 0, 0, .125)
+}
+
+.list-item {
+    position: relative;
+    display: block;
+    padding: .75rem 1.25rem;
+    margin-bottom: -1px;
+    background-color: #fff;
+}
+
+/*index*/
+
+.slider-title{
+    background-color: #00000073;
+    display: inline-block;
+    padding: 5px;
+}
+.carousel-inner img, .slider-title{
+    padding: 5px;
+    border-radius: 15px;
+    width: 100%;
+    /* width: 350px;
+    height: 250px;
+    object-fit: cover; */
+}
+
+@media (max-width : 720px) {
+    .carousel-inner img, .banner-img{
+        padding: 5px;
+        border-radius: 15px;
+        /* width: 200%; */
+        /* width: 350px; */
+        height: 250px;
+        object-fit: cover;
+    }
+
+    .card {
+        text-align: center;
+        display: contents;
+    
+    }
+   }
+
+.carousel-item{
+    overflow: hidden;
+
+}
+/* galeria */
+
+.thumbnail-container{
+    margin: 2%;
+    text-align: center;
+}
+.thumbnail-container-title{
+    margin-left: 3%;
+}
+.slider-title{
+    display: inline;
+    padding: 10px;
+}
+/* Slide */
+   .col-sm .rounded {
+    margin-left: 10px;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+ .col-sm:hover .rounded {
+    padding-right: 10px;
+	margin-left: 0;
+}
+
+.thumbnail-container-title .row{
+    display: inline-flex;
+}
+
+
+/* form */
+ 
+.form_main h4 {
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+.heading {
+    border-bottom: 1px solid #fcab0e;
+    padding-bottom: 9px;
+    position: relative;
+}
+.heading span {
+    background: #9e6600 none repeat scroll 0 0;
+    bottom: -2px;
+    height: 3px;
+    left: 0;
+    position: absolute;
+    width: 75px;
+}   
+.form {
+    border-radius: 7px;
+    padding: 6px;
+}
+.txt[type="text"] {
+    border: 1px solid #ccc;
+    margin: 10px 0;
+    padding: 10px 0 10px 5px;
+    width: 100%;
+}
+.txt_3[type="text"] {
+    margin: 10px 0 0;
+    padding: 10px 0 10px 5px;
+    width: 100%;
+}
