@@ -1,0 +1,416 @@
+* {
+	margin: 0;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+header {
+	background-color: #53b1f0;
+	font-family: 'Ubuntu', sans-serif;
+	display: flex;
+	background-image: url(../images/banner.jpg);
+}
+
+.idiomas {
+	font-size: 9px;
+	position: top;
+	display: flex;
+}
+
+.bocadillo {
+	background-image: url(../images/bocadillo.png);
+	width: 20px;
+	height: 20px;
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-radius: 20px;
+}
+
+.español {
+	background-image: url(../images/spain.png);
+
+}
+
+.catalan {
+	background-image: url(../images/catalan.png);
+}
+
+.ingles {
+	background-image: url(../images/ingles.png);
+}
+
+.imagen {
+	display: block;
+	background-image: url(../images/Logo.jpg);
+	width: 1300px;
+	height: 150px;
+	background-size: 10%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#search {
+	margin-top: 6px;
+	float: right;
+}
+
+.menu {
+	display: flex;
+	flex-direction: row;
+	background-color: #5682a3;
+	align-content: center;
+	align-self: center;
+}
+
+.menu > a {
+	font-size: 20px;
+	text-decoration: none;
+	margin: 10px;
+	margin-left: 30px;
+	color: white;
+}
+
+.lupa {
+	display: block;
+	background-image: url(../images/lupa.png);
+	width: 40px;
+	height: 30px;
+	background-size: 70%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+footer {
+	display: flex;
+	color: white;
+	height: auto;
+	width: 100%;
+	background: #333333;
+}
+
+footer #container {
+	margin: 20px;
+	width: 100%;
+}
+
+img#logo_footer {
+	width: 40px;
+	height: 40px;
+	border-radius: 50px;
+}
+
+footer .left .image {
+	float: left;
+	width: 70px;
+	height: auto;
+	border-right: 1px solid white;
+	margin-right: 15px;
+	transition: 1s;
+}
+
+footer .left .image img:hover {
+	animation: girar 1s infinite;
+}
+
+
+@keyframes girar {
+	0% {
+    	transform: rotate(0deg);
+	}
+
+  100% {
+      	transform: rotate(360deg);
+    }  
+  } 
+
+footer .left {
+	float: left;
+	width: 70%;
+}
+
+footer #footer-text {
+	margin-top: 60px;
+	font-size: 15px;
+}
+
+.socialNetworks {
+	float: left;
+	width: 80%;
+}
+
+.socialNetworks .social {
+	width: 30px;
+	height: 30px;
+	background-size: 30px;
+	margin: 7px;
+	border-radius: 50px;
+	float: left;
+	filter: grayscale(100%);
+}
+
+.socialNetworks .social:hover {
+	filter: grayscale(0%);
+	transition: 0.8s;
+}
+
+.facebook {
+	background-color: #2132CB;
+	background-image: url(../images/facebook.png);
+}
+
+.twitter {
+	background-image: url(../images/twitter.png);
+}
+
+footer .right {
+	float: left;
+	width: 30%;
+	height: auto;
+	text-align: justify;
+}
+
+footer form#newsletter {
+	margin-top: 10px;
+
+}
+
+form#newsletter img {
+	width: 30px;
+	height: 30px;
+}
+
+footer form#newsletter input {
+	float: right;
+	width: calc(100% - 56px);
+	margin-left: 0px;
+	transition: 1s;
+}
+
+#content {
+	height: auto;
+	width: 100%;
+	background: #EFEFEF;
+}
+ 
+.slider {
+	float: left;
+	width: calc(100% - 40px);
+	height: 300px;
+	margin: 20px;
+	overflow: hidden;
+	box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.slider ul {
+	z-index: 1;
+	display: flex;
+	padding: 0;
+	width: 400%;
+	animation: slider 25s infinite alternate linear;
+}
+
+.slider li {
+	width: 100%;
+	list-style: none;
+}
+
+.slider div {
+	width: 100%;
+	height: 300px;
+	background-size: 100%;
+	padding: 20px;
+}
+
+.slider div h1 {
+	margin-top: 130px;
+	font-size: 43px;
+	display: inline-block;
+	color: white;
+	width: auto;
+}
+
+.slider div p {
+	overflow: hidden;
+	display: inline-block;
+	color: white;
+	width: 99%;
+	height: 55px;
+}
+
+.slider button {
+	margin-top: -10px;
+	background-color: rgba(0, 0, 0, 0.4);
+	border: none;
+	color: white;
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
+
+span.backcolor {
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
+.format {
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.slider .holders {
+	width: auto;
+	height: auto;
+	display: inline-block;
+	position: absolute;
+	margin-top: -350px;
+	z-index: 2;
+	animation: slider2 25s infinite alternate linear;
+}
+
+.slider .holders .badgeChange {
+	box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+	padding: 0;
+	display: inline-block;
+	height: 10px;
+	width: 10px;
+	border: 1px solid white;
+	border-radius: 5px;
+}
+
+@keyframes slider {
+	0% { margin-left: 0; }
+	20% { margin-left: 0; }
+	
+	25% { margin-left: -100%; }
+	45% {margin-left: -100%; }
+	
+	50% { margin-left: -200%; }
+	70% { margin-left: -200%; }
+	
+	75% { margin-left: -300%; }
+	100% { margin-left: -300%; }
+}
+
+.more {
+	margin: 0px 20px 20px 20px;
+	float: left;
+	width: calc(100% - 40px);
+	height: auto;
+	box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.more h1 {
+	margin-top: 40px;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.more img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 40px;
+}
+
+.more table tr td {
+	text-align: justify;
+	padding: 40px 50px 50px 40px;
+}
+
+.information {
+	width: calc(100% - 40px);
+	float: left;
+	margin: 0px 20px 20px 20px;
+}
+
+.box-info {
+	overflow: hidden;
+	float: left;
+	box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+	height: 250px;
+	width: 32.59%;
+	max-width: 32.58%;
+}
+
+.box-info a {
+	text-decoration: none;
+}
+
+.box-info a .text {
+	margin-top: 170px;
+	width: calc(100% - 40px);
+	height: calc(100% - 40px);
+	background: rgba(0, 0, 0, 0.4);
+	padding: 20px;
+	color: white;
+	transition: margin-top 1s, background 1s;
+}
+
+.box-info a .text h1 {
+	font-family: 'Roboto Condensed', sans-serif;
+	text-transform: uppercase;
+	width: 100%;
+	text-align: center;
+}
+
+.box-info a .text p {
+	margin-top: 20px;
+	text-align: center;
+}
+
+.box-info:hover > a .text {
+	margin-top: 0px;
+	background: rgba(0, 0, 0, 0.8);
+	transition: 1s;
+}
+
+#horario-left {
+	float: left;
+	padding: 20px;
+	width: calc(65% - 40px);
+	border: none;
+}
+
+#horario-right {
+	text-align: justify;
+	float: right;
+	padding: 20px;
+	width: calc(35% - 40px);
+}
+
+#horario-right h1 {
+	font-family: 'Roboto Condensed', sans-serif;
+	text-transform: uppercase;
+}
+
+#non-day {
+	background: transparent !important;
+	color: rgba(0, 0, 0, 0, 0.8);
+}
+
+#horario-left table {
+	box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+#horario-left table tr td {
+	width: 14%;
+	height: 100px;
+	vertical-align: top;
+	padding: 5px;
+	background: #dadada;
+}
+
+#horario-left table tr th[colspan="6"] {
+	text-transform: uppercase;
+}
+
+#horario-left table tr th {
+	background: #8a8a8a;
+	color: white;
+	padding: 10px;
+}
+
+#horario-left table tr td.weekend {
+	background: #c2c2c2;
+}

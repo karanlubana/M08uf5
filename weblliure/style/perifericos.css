@@ -1,0 +1,295 @@
+* {
+	margin: 0;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+header {
+	background-color: #53b1f0;
+	font-family: 'Ubuntu', sans-serif;
+	display: flex;
+	background-image: url(../images/banner.jpg);
+}
+
+.idiomas {
+	font-size: 9px;
+	position: top;
+	display: flex;
+}
+
+.bocadillo {
+	background-image: url(../images/bocadillo.png);
+	width: 20px;
+	height: 20px;
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-radius: 20px;
+}
+
+.español {
+	background-image: url(../images/spain.png);
+
+}
+
+.catalan {
+	background-image: url(../images/catalan.png);
+}
+
+.ingles {
+	background-image: url(../images/ingles.png);
+}
+
+.imagen {
+	display: block;
+	background-image: url(../images/Logo.jpg);
+	width: 1300px;
+	height: 150px;
+	background-size: 10%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#search {
+	margin-top: 6px;
+	float: right;
+}
+
+.menu {
+	display: flex;
+	flex-direction: row;
+	background-color: #5682a3;
+	align-content: center;
+	align-self: center;
+}
+
+.menu > a {
+	font-size: 20px;
+	text-decoration: none;
+	margin: 10px;
+	margin-left: 30px;
+	color: white;
+}
+
+.lupa {
+	display: block;
+	background-image: url(../images/lupa.png);
+	width: 40px;
+	height: 30px;
+	background-size: 70%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#web {
+	display: flex;
+	flex-direction: row;
+}
+
+#lmenu {
+	display: flex;
+	flex-direction: column;
+	font-family: 'Ubuntu', sans-serif;
+	background-color: #20dff9;
+	width: 11%;
+}
+
+#lmenu > a {
+	margin-top: 20%;
+	margin-left: 10%;
+	text-decoration: none;
+	color: black;
+}
+
+#main {
+	width: 85%;
+}
+
+#part1 {
+	font-family: 'Roboto Slab', serif;
+	margin-left: 30px;
+	margin-right: 20px;
+	display: flex;
+	flex-direction: row;
+	text-align: justify;
+	margin-top: 2%;
+}
+
+#part2 {
+	font-family: 'Roboto Slab', serif;
+	margin-left: 30px;
+	margin-right: 20px;
+	text-align: justify;
+	margin-bottom: 2%;
+}
+
+#pictures {
+	display: flex;
+	flex-direction: column;
+	width: 40%;
+}
+
+#pic1 {
+	display: flex;
+	background-image: url("../images/nerve1.jpg");
+	width: 500px;
+	height: 300px;
+	background-size: 70%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#miniaturas {
+	display: flex;
+	flex-direction: row;
+
+}
+
+#pic2 {
+	display: block;
+	background-image: url("../images/SAO.png");
+	width: 150px;
+	height: 150px;
+	background-size: 90%;
+	background-position: center;
+	background-repeat: no-repeat;
+	align-content: space-around;
+}
+
+#pic3 {
+	display: block;
+	background-image: url("../images/SAOW.jpg");
+	width: 150px;
+	height: 150px;
+	background-size: 90%;
+	background-position: center;
+	background-repeat: no-repeat;
+	align-content: space-around;
+}
+
+#pic4 {
+	display: block;
+	background-image: url("../images/nerve2.jpg");
+	width: 150px;
+	height: 150px;
+	background-size: 90%;
+	background-position: center;
+	background-repeat: no-repeat;
+	align-content: space-around;
+}
+
+#Marcaymodelo {
+	width: 60%;
+	margin-left: 5%;
+}
+
+
+#Caracteristicas {
+	margin-top: 25px;
+}
+
+
+footer {
+	display: flex;
+	color: white;
+	height: auto;
+	width: 100%;
+	background: #333333;
+}
+
+footer #container {
+	margin: 20px;
+	width: 100%;
+}
+
+img#logo_footer {
+	width: 40px;
+	height: 40px;
+	border-radius: 50px;
+}
+
+footer .left .image {
+	float: left;
+	width: 70px;
+	height: auto;
+	border-right: 1px solid white;
+	margin-right: 15px;
+	transition: 1s;
+}
+
+footer .left .image img:hover {
+	animation: girar 1s infinite;
+}
+
+
+@keyframes girar {
+	0% {
+    	transform: rotate(0deg);
+	}
+
+  100% {
+      	transform: rotate(360deg);
+    }  
+  } 
+
+footer .left {
+	float: left;
+	width: 70%;
+}
+
+footer #footer-text {
+	margin-top: 60px;
+	font-size: 15px;
+}
+
+.socialNetworks {
+	float: left;
+	width: 80%;
+}
+
+.socialNetworks .social {
+	width: 30px;
+	height: 30px;
+	background-size: 30px;
+	margin: 7px;
+	border-radius: 50px;
+	float: left;
+	filter: grayscale(100%);
+}
+
+.socialNetworks .social:hover {
+	filter: grayscale(0%);
+	transition: 0.8s;
+}
+
+.facebook {
+	background-color: #2132CB;
+	background-image: url(../images/facebook.png);
+}
+
+.twitter {
+	background-image: url(../images/twitter.png);
+}
+
+footer .right {
+	float: left;
+	width: 30%;
+	height: auto;
+	text-align: justify;
+}
+
+footer form#newsletter {
+	margin-top: 10px;
+
+}
+
+form#newsletter img {
+	width: 30px;
+	height: 30px;
+}
+
+footer form#newsletter input {
+	float: right;
+	width: calc(100% - 56px);
+	margin-left: 0px;
+	transition: 1s;
+}
